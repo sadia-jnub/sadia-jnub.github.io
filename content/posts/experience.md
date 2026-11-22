@@ -1,5 +1,6 @@
 ---
 title: "Experience & Leadership"
+author: "sadia"
 date: 2026-11-21
 draft: false
 tags: ["experience", "leadership", "cybersecurity"]
