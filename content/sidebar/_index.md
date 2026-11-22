@@ -1,5 +1,10 @@
 ---
-icon: "avatar.jpg"
+icon: "/images/avatar.jpg"
+avatar: "/images/avatar.jpg"
+image: "/images/avatar.jpg"
+img: "/images/avatar.jpg"
+pfp: "/images/avatar.jpg"
+src: "/images/avatar.jpg"
 alt: "Sadia Joinub"
 links:
   - name: "LinkedIn"
