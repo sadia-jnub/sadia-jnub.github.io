@@ -1,0 +1,40 @@
+baseURL = "https://sadia-jnub.github.io/"
+languageCode = "en-us"
+title = "Sadia Joinub"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+  env = "production"
+  description = "Computer Science & Engineering Student | Cybersecurity & Web Development"
+  author = "Sadia Joinub"
+  defaultTheme = "auto"
+
+  [params.profileMode]
+    enabled = true
+    title = "Hi, I'm Sadia"
+    subtitle = "CSE Undergraduate • Cybersecurity Enthusiast • Builder"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/sadia-jnub"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
