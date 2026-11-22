@@ -4,27 +4,6 @@ title = "Sadia Joinub"
 theme = "neopost"
 
 [params]
-  # Change to "light-blue" to match the demo, or keep "light-purple" / "light-pink"
   theme = "light-blue"
-  author = "sadia"
-  avatar = "/images/profile.jpg"
-  speechBubble = "hi! sadia here — welcome to my digital space ✨"
-  
-  # Small status pills under your avatar (like "age: 5 • pronouns: she/her")
-  [[params.status]]
-    key = "major"
-    value = "CSE @ DIU"
-  [[params.status]]
-    key = "focus"
-    value = "Cybersecurity & AI"
-
-  # Pill buttons under Tags (like "itch.io" and "patreon" in the demo)
-  [[params.links]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/sadia-joinub-07b5b234b"
-  [[params.links]]
-    name = "GitHub"
-    url = "https://github.com/sadia-jnub"
-  [[params.links]]
-    name = "Email"
-    url = "mailto:sadiajoinub@gmail.com"
+  author = "Sadia"
+  showTags = true
