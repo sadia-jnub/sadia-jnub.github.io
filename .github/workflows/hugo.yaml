@@ -36,7 +36,7 @@ jobs:
       - name: Build with Hugo
         run: |
           hugo mod init github.com/sadia-jnub/sadia-jnub.github.io || true
-          hugo mod get github.com/adityatelange/hugo-PaperMod
+          hugo mod get github.com/salcanom/neopost
           hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
