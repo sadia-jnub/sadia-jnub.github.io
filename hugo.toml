@@ -4,29 +4,27 @@ title = "Sadia Joinub"
 theme = "neopost"
 
 [params]
-  # Color options: "light-blue", "dark-blue", "light-green", "light-yellow", "light-pink", "light-purple"
-  theme = "light-purple"
-  author = "Sadia Joinub"
-  description = "CSE Undergrad @ DIU • Cyber Security Club Executive • Eraao Academy Campus Ambassador • Founder @ Le Painture"
+  # Change to "light-blue" to match the demo, or keep "light-purple" / "light-pink"
+  theme = "light-blue"
+  author = "sadia"
+  avatar = "/images/profile.jpg"
+  speechBubble = "hi! sadia here — welcome to my digital space ✨"
+  
+  # Small status pills under your avatar (like "age: 5 • pronouns: she/her")
+  [[params.status]]
+    key = "major"
+    value = "CSE @ DIU"
+  [[params.status]]
+    key = "focus"
+    value = "Cybersecurity & AI"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    name = "About"
-    url = "/posts/about/"
-    weight = 20
-  [[menu.main]]
-    name = "Experience"
-    url = "/posts/experience/"
-    weight = 30
-  [[menu.main]]
-    name = "Certifications & Awards"
-    url = "/posts/certifications/"
-    weight = 40
-  [[menu.main]]
-    name = "Projects & Art"
-    url = "/posts/projects/"
-    weight = 50
+  # Pill buttons under Tags (like "itch.io" and "patreon" in the demo)
+  [[params.links]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/sadia-joinub-07b5b234b"
+  [[params.links]]
+    name = "GitHub"
+    url = "https://github.com/sadia-jnub"
+  [[params.links]]
+    name = "Email"
+    url = "mailto:sadiajoinub@gmail.com"
