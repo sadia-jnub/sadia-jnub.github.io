@@ -1,5 +1,6 @@
 ---
-avatar: "/images/profile.jpg"
+icon: "avatar.jpg"
+alt: "Sadia Joinub"
 links:
   - name: "LinkedIn"
     link: "https://www.linkedin.com/in/sadia-joinub-07b5b234b"
