@@ -4,36 +4,21 @@ title = "Sadia Joinub"
 
 [module]
   [[module.imports]]
-    path = "github.com/salcanom/neopost"
+    path = "github.com/salatine/neopost"
 
 [params]
-  # Sidebar Profile Settings
+  # Color options: "light-blue", "dark-blue", "light-green", "light-yellow", "light-pink", "light-purple"
+  theme = "light-purple"
   author = "Sadia Joinub"
   description = "CSE Undergrad @ DIU • Cyber Security Club Executive • Eraao Academy Campus Ambassador • Founder @ Le Painture"
-  # Optional: Upload your photo to static/images/profile.jpg and uncomment below:
-  # avatar = "/images/profile.jpg"
-
-  # Theme Appearance (options: "light", "dark", "auto")
-  colorScheme = "auto"
-
-  # Social & Contact Links in Sidebar
-  [[params.social]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/sadia-joinub-07b5b234b"
-  [[params.social]]
-    name = "GitHub"
-    url = "https://github.com/sadia-jnub"
-  [[params.social]]
-    name = "Email"
-    url = "mailto:sadiajoinub@gmail.com"
 
 [menu]
   [[menu.main]]
-    name = "Home Feed"
+    name = "Home"
     url = "/"
     weight = 10
   [[menu.main]]
-    name = "About & Education"
+    name = "About"
     url = "/posts/about/"
     weight = 20
   [[menu.main]]
