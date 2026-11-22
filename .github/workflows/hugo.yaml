@@ -33,11 +33,12 @@ jobs:
         with:
           go-version: '1.22'
 
-      - name: Build with Hugo
+     - name: Build with Hugo
         run: |
           hugo mod init github.com/sadia-jnub/sadia-jnub.github.io || true
-          hugo mod get github.com/salcanom/neopost
+          hugo mod get github.com/salatine/neopost
           hugo --minify
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
