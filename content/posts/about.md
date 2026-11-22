@@ -1,5 +1,6 @@
 ---
 title: "About Me & Education"
+author: "sadia"
 date: 2026-11-22
 draft: false
 tags: ["about", "education", "skills"]
