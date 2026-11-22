@@ -1,5 +1,6 @@
 ---
 title: "Certifications & Awards"
+author: "sadia"
 date: 2026-11-20
 draft: false
 tags: ["certifications", "awards", "ctf"]
